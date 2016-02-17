@@ -1,14 +1,13 @@
 {
   "name": "tarsius-messaging-email-sendgrid",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.0.1",
   "description": "tarsius plugin for send email via SendGrid API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "muhammad hasan <hasan@lussa.net>",
+  "license": "MIT",
   "dependencies": {
     "nodemailer": "^1.10.0",
     "nodemailer-html-to-text": "^1.0.2",
@@ -24,5 +23,18 @@
         "type": "string"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lussatech/tarsius-messaging-email-sendgrid.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "nodejs",
+    "tarsius"
+  ],
+  "bugs": {
+    "url": "https://github.com/lussatech/tarsius-messaging-email-sendgrid/issues"
+  },
+  "homepage": "https://github.com/lussatech/tarsius-messaging-email-sendgrid#readme"
 }
